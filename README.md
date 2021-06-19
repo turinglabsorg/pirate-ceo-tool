@@ -1,24 +1,9 @@
-# pirate-ceo-tool
+# Pirate CEO Tool
 
-## Project setup
-```
-yarn install
-```
+This is a simple joke-project to create memes using [this tool](https://yahoo.github.io/gifshot/) developed at Yahoo.
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+If you want to contirbute simply fork the project and make a PR.
 
-### Compiles and minifies for production
-```
-yarn build
-```
+Please pay attention, wifes may disapprove:
 
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![Me showing this tool to my wife](./Pirate_CEO.gif)

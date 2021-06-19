@@ -8,6 +8,7 @@
       />
     </div>
     <br /><br />
+    <input type="text" v-if="!isTaking" v-model="text" style="font-size:16px; width:364px; padding:10px 5px"><br>
     <button
       v-on:click="takeGif"
       v-if="!isTaking"
@@ -41,6 +42,7 @@ export default {
       isTaking: "",
       image: "",
       remaining: 0.4,
+      text: "I'm the CEO of PirateChain"
     };
   },
   methods: {
@@ -67,7 +69,7 @@ export default {
           gifWidth: 400,
           gifHeight: 400,
           textYCoordinate: 360,
-          text: "I'm the CEO of PirateChain",
+          text: app.text,
         },
         function (obj) {
           document.getElementById("preview").innerHTML = "";
